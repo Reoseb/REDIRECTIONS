@@ -1,0 +1,22 @@
+RéoSeb@REOZONDE MINGW64 ~
+$ cd ~/Documents/WILD\ CODE/
+
+$ grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+
+RéoSeb@REOZONDE MINGW64 ~/Documents/WILD CODE
+$ grep "JavaScript" wilders.csv > ParcheminDecafecafe.csv
+
+RéoSeb@REOZONDE MINGW64 ~/Documents/WILD CODE
+$ grep "Toulouse" ParcheminDecafe.csv > VilleRose.csv
+
+RéoSeb@REOZONDE MINGW64 ~/Documents/WILD CODE
+$ grep "Biarritz" ParcheminDecafe.csv > SoChic.csv
+
+RéoSeb@REOZONDE MINGW64 ~/Documents/WILD CODE
+$ cat SoChic.csv VilleRose.csv > SudOuestenForce.csv | sort -u
+
+RéoSeb@REOZONDE MINGW64 ~/Documents/WILD CODE
+$ ls
+php_france_2019.csv
+VilleRose.csv        wilders.csv
+SudOuestenForce      SoChic.csv             ParcheminDecafe.csv
